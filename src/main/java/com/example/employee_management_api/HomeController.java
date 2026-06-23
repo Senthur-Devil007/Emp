@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "Employee API is running successfully!";
+        return "Version 6 - Jenkins Auto Deployment";
     }
 }
